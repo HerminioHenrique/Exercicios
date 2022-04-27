@@ -6,13 +6,11 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
     float num, num2, ad, sub, div, mult;
-    printf("Digite um numero: ");
-    scanf("%f", &num);
-    printf("Digite outro numero: ");
-    scanf("%f", &num2);
+    printf("Digite dois numeros: ");
+    scanf("%f %f",&num,&num2);
     ad = num + num2;
     sub = num - num2;
     div = num / num2;

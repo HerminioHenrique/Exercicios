@@ -11,12 +11,8 @@
 int main()
 {
     int num, num2, num3;
-    printf("Insira um numero inteiro: ");
-    scanf("%d", &num);
-    printf("Insira outra numero inteiro: ");
-    scanf("%d", &num2);
-    printf("Insira o ultimo numero: ");
-    scanf("%d", &num3);
+    printf("Insira os tres lados do triangulo: ");
+    scanf("%d %d %d", &num, &num2, &num3);
     if (num + num2 >= num3 && num2 + num3 >= num && num + num3 >= num2)
     {
         if (num == num2 && num2 == num3)

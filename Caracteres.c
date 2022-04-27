@@ -9,16 +9,14 @@ int main()
     scanf("%c", &caractere);
     if (caractere == '+')
         printf("Soma.");
+    else if (caractere == '-')
+        printf("Subtracao");
+    else if (caractere == '*')
+        printf("Multiplicacao");
+    else if (caractere == '/')
+        printf("Divisao");
+    else if (caractere == '%')
+        printf("Resto da divisao");
     else
-    {
-        if (caractere == '-')
-            printf("Subtracao");
-        else
-        {
-            if (caractere == '*')
-                printf("Multiplicacao");
-            else if (caractere == '/')
-                printf("Divisao");
-        }
-    }
+        printf("NDA");
 }

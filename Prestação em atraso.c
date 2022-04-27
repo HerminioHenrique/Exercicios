@@ -18,12 +18,10 @@ void main()
     printf("Por ultimo, informe o periodo em atraso, em dias: ");
     scanf("%f", &pa);
     printf("O valor incial da prestacao vencida era de: %.2f \n", pv);
-    printf("Essa prestacao atrasou %.f", pa);
-    printf(" dias. \n");
+    printf("Essa prestacao atrasou %.2f dias.", pa);
     tpj = tpj / 100;
     j = tpj * pa * pv;
     paf = pv + j;
-    printf("Voce pagara %.f", j);
-    printf(" reais de juros. \n");
-    printf("No total, voce pagara um total de %.f reais.", paf);
+    printf("Voce pagara %.2f reais de juros.", j);
+    printf("No total, voce pagara %.2f reais.", paf);
 }
