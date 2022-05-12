@@ -1,3 +1,11 @@
+/*
+Nessa nova versão, a quantidade de números será informada incialmente, ou seja, será dinâmica. Seja n essa quantidade de números.
+
+Implemente um programa que recebe n números inteiros e calcule e imprima a média desses n números.
+
+O primeiro número fornecido na entrada será o valor de n, depois será fornecidos os n números.
+*/
+
 #include <stdio.h>
 
 int main()
