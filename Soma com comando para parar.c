@@ -1,3 +1,9 @@
+/*
+*Implemente um programa que ficará recebendo números inteiros e seu programa deve somar esses números.
+
+*Alternadamente, seu programa irá receber um número para a soma e um comando indicando se deve continuar ou parar.
+*/
+
 #include <stdio.h>
 
 int main()
